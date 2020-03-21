@@ -12,7 +12,7 @@ Whenever an Orca is near the hydrophones placed by OrcaSound and makes a sound, 
 
 Long description of the project. **Must** include all technical details of the
 project, like libraries involved.
-By using two (or more) near hydrophones, it should be possible to derive the distance between the source of a call signal and the geo-location of the microphones.
+By using two (or more) near hydrophones, it should be possible to derive the distance between the source of a call signal and the geo-location of the microphones. It should also be possible to derive an estimated location of the source. We find this data using [multilateration and TDoA](https://en.wikipedia.org/wiki/Multilateration). Solving an equation with [2 microphones](https://www.canal-u.tv/video/inria/the_geometry_of_two_microphones.33279) would yield a 2 sheet hyperboloid with the possible position of the source. It is possible to implement this with a model in Python.
 
 Here it is also important to document previous conversations with your prospective mentors. You can show relevant pieces of code that you want to change. You can link to literature you used during the research.
 
