@@ -1,18 +1,18 @@
 [LICENSE](https://github.com/orcasound/orcagsoc/blob/instructions/GUIDE_LICENSE.md) (This template was adapted from [ESIP](https://www.esipfed.org/)'s organization [template](https://github.com/ESIPFed/gsoc/blob/master/STUDENT-proposal-template.md): thank you ESIP!)
 
-#  Orca Location Detection using Trilateration
+#  Orca Location Detection Using Multilateration with Hydrophones
 
 ## Abstract
 
 Short description of your project. Max 10 sentences. This **SHOULD NOT** be a
 copy of the project idea text.
-Whenever an Orca is near the hydrophones placed by OrcaSound and makes a sound, this can be picked up by hydrophones. This alone will not suffice to pinpoint the location of the killer whale, since we cannot derive the distance from just a single signal. By using intervals between two or more near microphones, we should be able to derive the distance based on the speed of sound in salt water. Using three of these setups, we could use a triangulation algorithm to pinpoint the approximate location of the orca when making the noise. This can have future developments in a mapping with sounds, or researchers can be notified upon detection and be able to know the approximate location of the killer whale.  
+Whenever an Orca is near the hydrophones placed by OrcaSound and makes a sound, this can be picked up by hydrophones. This alone will not suffice to pinpoint the location of the killer whale, since we cannot derive the distance from just a single signal. By using intervals between two (or more) near microphones, we should be able to derive the distance based on the speed of sound in salt water. Using three of these setups, we could use a triangulation algorithm to pinpoint the approximate location of the orca when making the noise. This can have future developments in a mapping with sounds, or researchers can be notified upon detection and be able to know the approximate location of the killer whale.  
 
 ## Technical Details
 
 Long description of the project. **Must** include all technical details of the
 project, like libraries involved.
-By using two near hydrophones, it is possible to 
+By using two (or more) near hydrophones, it should be possible to derive the distance between the source of a call signal and the geo-location of the microphones.
 
 Here it is also important to document previous conversations with your prospective mentors. You can show relevant pieces of code that you want to change. You can link to literature you used during the research.
 
