@@ -43,11 +43,11 @@ In this period I would set up a Wordpress and make sure it works correctly. Furt
 
 ### **Phase 1**
 
-Deliver a working model
+Deliver a model that is accurate, realistic and works.
 
 ### **Phase 2**
 
-Deliver a working implementation, hopefully ready for deployment 
+Deliver a working implementation, hopefully ready for deployment.
 
 ### **Final Week**
 
